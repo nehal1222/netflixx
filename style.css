@@ -1,0 +1,221 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+*{
+               padding: 0;
+               margin: 0;
+               font-family: 'Martel Sans', sans-serif;
+
+}
+body{
+               background-color: black;
+}
+.main{
+               background-image: url("assets/Images/bg.jpg");
+               height: 120vh;
+               position: relative;
+               background-position: center center;
+               background-repeat: no-repeat;
+               background-size: max(1200px, 100vw);
+
+}
+.main .box{
+               height: 120vh;
+               width: 100%;
+               background-color: black;
+               opacity: 0.5;
+               position: absolute;
+               top: 0;
+}
+
+nav{
+               max-width: 89vw;
+               margin: auto;
+               display: flex;
+               align-items: center;
+               justify-content: space-between;
+               height: 66px;
+}
+nav img{
+               color: red;
+               width: 120px;
+               position: relative;
+               justify-content: space-between;
+               z-index: 10;
+}
+nav button{
+               position: relative;
+               justify-content: space-between;
+
+               z-index: 10;
+}
+.hero{
+               height: 90%;
+               align-items: center;
+               display: flex;
+               flex-direction: column;
+               justify-content: center;
+               color: white;
+               position: relative;
+               font-family: 'Martel Sans', sans-serif;
+               gap: 23px;
+               padding: 0 30px;
+}
+.inp{
+               display: flex;
+               justify-content: center;
+               gap: 17px;
+               align-items: center;
+}
+.hero> :first-child{
+               font-weight: 900;
+               font-size: 48px;
+               text-align: center;
+
+}
+.hero> :nth-child(2){
+               font-weight: 400 ;
+               font-size: 24px;
+               text-align: center;
+
+}
+.hero> :nth-child(3){
+               font-weight: 400;
+               font-size: 20px;
+               text-align: center;
+}
+.separation{
+               background-color: gray;
+               height: 10px;
+               margin-bottom: auto;
+}
+.first{
+               display: flex;
+               justify-content: center;
+               max-width: 94vw;
+               margin-top: 100px ;
+               margin-bottom: 0px;
+               margin-left: 50px;
+               margin-right: 30px;
+               justify-content: center;
+               align-items: center;
+
+}
+.first .enjoy{
+               
+               color: aliceblue;
+               margin-bottom: 274px;
+
+}
+.secImg{
+               position: relative;
+               margin-right: 0px;
+               margin-left: 150px;
+}
+.secImg img{
+               width: 45vw; 
+               position: relative;
+               z-index: 10 ;
+
+}
+.secImg video{
+               position: relative;
+               top: -345px;
+               right: -64px;
+}
+
+.enjoy >:nth-child(1){
+               font-weight: 900;
+               font-size: 40px;
+}
+.enjoy> :nth-child(2){
+               font-weight: 400;
+               font-size: 30px;
+
+}
+.second{
+               display: flex;
+               justify-content: center;
+               max-width: 94vw;
+               margin-top: 100px ;
+               margin-bottom: 0px;
+               margin-left: 50px;
+               margin-right: 30px;
+               justify-content: center;
+               align-items: center;
+
+}
+
+.down >:nth-child(1){
+               font-weight: 900;
+               font-size: 35px;
+}
+.down> :nth-child(2){
+               font-weight: 400;
+               font-size: 30px;
+
+}
+.third{
+               display: flex;
+               justify-content: center;
+               max-width: 94vw;
+               margin-top: 100px ;
+               margin-bottom: 0px;
+               margin-left: 50px;
+               margin-right: 30px;
+               justify-content: center;
+               align-items: center;
+
+}
+.dialogue>:nth-child(1){
+               font-weight: 900;
+               font-size: 35px;
+}
+.dialogue> :nth-child(2){
+               font-weight: 400;
+               font-size: 30px;
+
+}
+.self{
+               position: relative;
+               margin-right: 0px;
+               margin-left: 150px;
+}
+.self img{
+               width: 45vw; 
+               position: relative;
+               z-index: 24 ;
+
+}
+.self video{
+               position: relative;
+               top: -363px;
+               right: -82px;
+               /* z-index: -189; */
+}
+
+
+.fourth{
+               display: flex;
+               justify-content: center;
+               max-width: 94vw;
+               margin-top: 100px ;
+               margin-bottom: 0px;
+               margin-left: 50px;
+               margin-right: 30px;
+               justify-content: center;
+               align-items: center;
+
+}
+.cartoon>:nth-child(1){
+               font-weight: 900;
+               font-size: 35px;
+}
+.cartoon> :nth-child(2){
+               font-weight: 400;
+               font-size: 30px;
+
+}
+.colorful{
+               display: flex;
+}
